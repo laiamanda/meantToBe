@@ -10,8 +10,7 @@ app.use(express.static("public"));
 
 /* LANDING ROUTE */
 app.get("/", function(req,res){
-    res.send("HomePage");
-
+    res.render('pages/index');
     //res.render("home");
 });
 
