@@ -1,0 +1,58 @@
+[33mcommit 739d37decab4d1d0bf60c063d9700fc38724cf68[m[33m ([m[1;36mHEAD -> [m[1;32mupdate1[m[33m)[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 18:26:32 2021 -0500
+
+    Update login
+
+[33mcommit 11db9881b9c88384005e87db35b7a157c4494fd5[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 17:26:11 2021 -0500
+
+    add login signup features and dark
+
+[33mcommit b2e92ab67f362453948cba61a21a0bff7e2ab05e[m
+Merge: 46e94d1 e4b28bd
+Author: laiamanda <40805270+laiamanda@users.noreply.github.com>
+Date:   Sat Mar 6 17:02:05 2021 -0500
+
+    Merge pull request #1 from laiamanda/navbar
+    
+    Add header bootstrap and other files
+
+[33mcommit e4b28bd503cf3641116f6ff920e6054487c0416e[m[33m ([m[1;32mnavbar[m[33m)[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 16:56:57 2021 -0500
+
+    Add header bootstrap and other files
+
+[33mcommit 46e94d10b3fc7249ba784e7e7dcfdbd6594a5fc6[m
+Author: Abby W <abigail9664@gmail.com>
+Date:   Sat Mar 6 13:50:56 2021 -0800
+
+    Revert "Add header (trying to get links to be inline)"
+    
+    This reverts commit 7f01c7b10878fa409193899e5efcee52ccacce74.
+
+[33mcommit 7f01c7b10878fa409193899e5efcee52ccacce74[m
+Author: Abby W <abigail9664@gmail.com>
+Date:   Sat Mar 6 13:18:19 2021 -0800
+
+    Add header (trying to get links to be inline)
+
+[33mcommit 349361c13ef905ba88d10f9af6dcdceda51d4b78[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 14:32:15 2021 -0500
+
+    Add landing route and app.listen
+
+[33mcommit 0f26e597816e5651290f6294c8b3f3c0890918b0[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 14:21:15 2021 -0500
+
+    Add app.js and package.json
+
+[33mcommit e605e5f64610c7d254c9f47d31af3e54d967f283[m
+Author: laiamanda <lai.amanda27@gmail.com>
+Date:   Sat Mar 6 14:12:42 2021 -0500
+
+    first commit

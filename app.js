@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const ejs = require("ejs");
 
 const app = express();
 
@@ -23,15 +24,15 @@ app.get("/login", function(req,res){
     res.render("login");
 });
 
-/* MENTOR ROUTE */
+/* MENTOR ROUTE 
 app.get("/mentor", function(req,res){
     res.send("This will be the mentor profile page");
-});
+}); */
 
-/* MENTEE ROUTE */
+/* MENTEE ROUTE
 app.get("/member", function(req,res){
     res.send("This will be the mentee profile page");
-});
+});  */
 
 /* CONNECTION/MATCH ROUTE */
 

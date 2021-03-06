@@ -1,5 +1,5 @@
  /* Stackoverflow preview fix, please ignore */
- .navbar-nav {
+  .navbar-nav {
     flex-direction: row;
   }
   
@@ -13,3 +13,4 @@
     left: auto !important;
     right: 0px;
   }
+
