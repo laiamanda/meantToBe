@@ -1,4 +1,3 @@
-
 /*--- TAGS ---*/
 
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
@@ -16,9 +15,12 @@ h3 {
   font-size: 36px;
   margin-bottom: 33px;
 }
-footer{
-  background-color: #9FA8DA;
-  color: #fff;
+form{
+  text-align: center;
+}
+/* FORM */
+.form-Title{
+  text-align: center;
 }
 /*--- NAVBAR ---*/
 .navbar-nav {
@@ -36,9 +38,13 @@ footer{
   left: auto !important;
   right: 0px;
 }
+.nav-item{
+  padding: 1rem;
+}
 .not-nav-button{
   transform: translateY(10px);
 }
+
 /* LANDING CARD*/
 #landing {
   font-size: 24px;
@@ -115,4 +121,23 @@ footer{
     max-width: 75%;
 } */
 
+/* Mentor */
+.mentor-Title{
+  color: #61C9A8;
+}
+.mentor-Btn{
+  background-color: #61C9A8;
+  color: #fff;
+}
+.mentor-card{
+  margin: 5% 3%;
+}
 
+/* MENTEE */
+.mentee-Title{
+  color: #F59399;
+}
+.mentee-Btn{
+  background-color: #F59399;
+  color: #fff;
+}
