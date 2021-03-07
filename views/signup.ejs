@@ -1,12 +1,26 @@
 <%- include("partials/header") -%>
 
-<h1>Signup</h1>
+<div class="m-3">
+    <h1>Signup</h1>
+<form>
+  <label
+    >Create a new username: <br />
+    <input placeholder="egg@meanttobe.me"
+  /></label>
 
-<label>Username:</label>
-<input placeholder = "Enter Username">
-<label>Password: </label>
-<input placeholder = "Enter Password">
-
-<button type = "submit" class = "bt btn-dark">Sign Up</button>
+  <br />
+  <label
+    >Create a password: <br />
+    <input type="password" placeholder="Enter Password"
+  /></label>
+  <br />
+  <label
+    >Confirm your new password: <br />
+    <input type="password" placeholder="Enter Password"
+  /></label>
+  <br />
+  <button type="submit" class="bt btn-dark mt-2">Sign Up</button>
+</form>
+</div>
 
 <%- include("partials/footer") -%>
