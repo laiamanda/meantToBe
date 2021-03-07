@@ -1,3 +1,32 @@
+
+footer{
+  background-color: #9FA8DA;
+  color: #fff;
+}
+ 
+ /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+  
+#landing-card-1 {
+    width: 60%;
+}
+
+#landing-card-2 {
+    width: 50%;
+    float: right;
+}
+
+.br-18 {
+    border-radius: 18px;
+}
+=======
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
 
 * {
@@ -110,6 +139,5 @@ h2 {
     max-width: 75%;
 } */
 
-.br-18 {
-  border-radius: 18px;
-}
+
+
