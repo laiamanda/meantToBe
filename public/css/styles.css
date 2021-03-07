@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
 
 * {
-  font-family: 'Livvic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Livvic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 footer {
   background-color: #9fa8da;
   color: #fff;
+}
+
+#landing {
+  font-size: 24px;
 }
 
 .hero-text {
@@ -15,17 +20,29 @@ footer {
 
 .card {
   background-color: #fff;
-  font-size: 24px;
+  padding: 60px;
+  border: 1px solid black;
 }
 
-.card > h2 {
+h2 {
   font-weight: bold;
   font-size: 64px;
 }
 
-.card > input[type=button] {
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 33px;
+}
+
+.card > input[type="button"] {
   display: inline-block;
   width: auto;
+}
+
+.step {
+  width: 25%;
+  padding: 24px;
 }
 
 /* Stackoverflow preview fix, please ignore */
@@ -54,9 +71,13 @@ footer {
   clear: both;
 }
 
+#how-work {
+  font-size: 64px;
+  font-weight: bold;
+}
+
 #landing-card-top {
   float: left;
-  padding: 60px;
   margin-right: -100%;
   position: relative;
   z-index: 1;
@@ -69,7 +90,6 @@ h2 {
 }
 
 #landing-card-bottom {
-  padding: 60px;
   margin-top: 15%;
   width: 50%;
   z-index: 1;
@@ -77,7 +97,6 @@ h2 {
 }
 
 #footnote {
-  padding: 60px;
   font-size: 18px;
   margin-top: 45%;
   margin-right: -100%;
