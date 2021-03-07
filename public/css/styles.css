@@ -18,6 +18,11 @@ h3 {
 form{
   text-align: center;
 }
+
+nav {
+  min-height: 10vh;
+}
+
 /* FORM */
 .form-Title{
   text-align: center;
@@ -25,7 +30,6 @@ form{
 /*--- NAVBAR ---*/
 .navbar-nav {
   flex-direction: row;
-  height: 2vh;
 }
 .nav-link {
   padding-right: .5rem !important;
