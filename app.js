@@ -26,18 +26,18 @@ app.get("/login", function(req,res){
 
 /* MENTOR ROUTE */
 app.get("/mentor", function(req,res){
-    res.send("This will be the mentor profile page");
+    res.render("mentor");
 }); 
 
 /* MENTEE ROUTE */
 app.get("/member", function(req,res){
-    res.render("mentor");
+    res.render("mentee");
 });  
 
 /* CONNECTION/MATCH ROUTE */
-app.get("/connection", function(req,res){
+/* app.get("/connection", function(req,res){
     res.render("mentee");
-});
+}); */
 
 app.listen(8000,function(){
     console.log("Server started on Port 8000");

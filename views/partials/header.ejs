@@ -8,15 +8,19 @@
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
+    
     <!-- Styles CSS -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <title>meantToBe</title>    
-</head>
+    <title>meantToBe</title>
+    
+  </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">meantToBe</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,18 +29,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href= "/member" class="nav-link">Find a Mentee</a>
+        <a href= "/member" class="nav-link not-nav-button">Find a Mentee</a>
       </li>
       <li class="nav-item">
-        <a href= "/mentor" class="nav-link">Find a Mentor</a>
+        <a href= "/mentor" class="nav-link not-nav-button">Find a Mentor</a>
       </li>
 
       <li class="nav-item">
-        <a href= "/login" class="nav-link">Login</a>
+        <button class = "btn btn-outline-dark"><a href= "/login" class="nav-link">Login</a></button>
       </li>
       <li class="nav-item">
-          <a href = "/signup" class="nav-link">Sign Up</a>
+        <button class = "btn mint-btn"><a href = "/signup" class="nav-link">Sign Up</a></button>
       </li>
     </ul>
     </div>
 </nav>
+
+<hr id = "header-hr"> 
