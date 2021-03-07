@@ -1,63 +1,82 @@
 <%- include("partials/header") -%>
 
-<div class="m-3">
   <div class="mt-5">
-    <h1>You're meant to be a</h1>
-    <h1 id="transform">Biologist</h1>
+    <div>
+      <h1 class="hero-text">You're meant to be a</h1>
+      <h1 class="hero-text" id="transform">Biologist</h1>
+    </div>
     <br />
-    <div id="landing-card-1" class="br-18 p-3 border border-dark">
-      <h2>Figure out your path as a mentee</h2>
-      <p>
-        You may be in school, thinking about getting into or struggling in
-        STEM-related academia or industry. Perhaps you're interested in STEM,
-        but feel uncertain whether you belong as a womxn*.
-      </p>
-      <input type="button" value="Sign up as a mentee" />
-    </div>
-    <div id="landing-card-2" class="br-18 p-3 border border-dark">
-      <h2>Guide the next generation of womxn* as a mentor</h2>
-      <p>
-        We're instructors, professors, scientists, engineers, and more. We want
-        to share the ups and downs from our experiences to help you discover
-        your career path.
-      </p>
-      <input type="button" value="Sign up as a mentor" />
-    </div>
-    <div>
-        <p>meantToBe uses * to include cis, trans women, as well as women-identifying non-binary, agender, or intersex people and other gender minorities.</p>
-    </div>
-  </div>
-  <div>
-    <h2>Create meaningful connections.</h2>
-    <p>Focused conversations. No more one-time talk.</p>
-    <img src="../public/fogg-success-1.png" />
-    <div>
-      <h3>Introduce</h3>
-      <p>
-        We want to know who you are, your hobbies, and learn what motivates you.
-      </p>
-    </div>
-    <div>
-      <h3>Connect</h3>
-      <p>
-        Every month, you have 5 connection tokens to send to a mentor you want
-        to connect. Make sure you share similar interests!
-      </p>
-    </div>
-    <div>
-      <h3>Chat</h3>
-      <p>
-        Ideally, one of the mentors you’ve sent a request to accepts your
-        connection. You’ll get to spend 1-month with them via video chat.
-      </p>
+    <div id="card-stack">
+      <div id="landing-card-top" class="card br-18">
+        <h2>Figure out your path as a mentee</h2>
+        <p>
+          You may be in school, thinking about getting into or struggling in
+          STEM-related academia or industry. Perhaps you're interested in STEM,
+          but feel uncertain whether you belong as a womxn*.
+        </p>
+        <input type="button" value="Sign up as a mentee" />
+      </div>
+      <div id="landing-card-bottom" class="card br-18">
+        <h2>Guide the next generation of womxn* as a mentor</h2>
+        <p>
+          We're instructors, professors, scientists, engineers, and more. We
+          want to share the ups and downs from our experiences to help you
+          discover your career path.
+        </p>
+        <input type="button" value="Sign up as a mentor" />
+      </div>
+      <div id="footnote" class="card br-18">
+        <p>
+          meantToBe uses * to include cis, trans women, as well as
+          women-identifying non-binary, agender, or intersex people and other
+          gender minorities.
+        </p>
+      </div>
     </div>
   </div>
   <div>
-      <h2>How does meantToBe work?</h2>
-      <p>Every month we update this site with a group of people volunteering to video chat with you. We try to invite volunteers with diverse backgrounds so you can relate better. 
-        <br>
-        If you didn’t match with a mentor immediately, don’t feel discouraged. 
-        We encourage you to send out connections each month. </p>
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 60%; border: none;" class="card">
+            <h2>Create meaningful connections.</h2>
+            <p>Focused conversations. No more one-time talk.</p>
+          </div>
+          <img style="width: 30%; position: relative;"
+            src="https://cloud-ddyakv7mm-hack-club-bot.vercel.app/0fogg-success-1.png"
+          />
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly">
+        <div class="card step br-18">
+            <h3>Introduce</h3>
+            <p>
+              We want to know who you are, your hobbies, and learn what motivates you.
+            </p>
+          </div>
+          <div class="card step br-18">
+            <h3>Connect</h3>
+            <p>
+              Every month, you have 5 connection tokens to send to a mentor you want
+              to connect. Make sure you share similar interests!
+            </p>
+          </div>
+          <div class="card step br-18">
+            <h3>Chat</h3>
+            <p>
+              Ideally, one of the mentors you’ve sent a request to accepts your
+              connection. You’ll get to spend 1-month with them via video chat.
+            </p>
+          </div>
+    </div>
+  </div>
+  <div style="margin-top: 260px; padding: 60px; max-width: 70%">
+    <h2 id="how-work">How does meantToBe work?</h2>
+    <p>
+      Every month we update this site with a group of people volunteering to
+      video chat with you. We try to invite volunteers with diverse backgrounds
+      so you can relate better.
+      <br />
+      If you didn’t match with a mentor immediately, don’t feel discouraged. We
+      encourage you to send out connections each month.
+    </p>
   </div>
 </div>
 
