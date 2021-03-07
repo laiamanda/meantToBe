@@ -8,11 +8,11 @@
 }
 h2 {
   font-weight: bold;
-  font-size: 64px;
+  font-size: min(4vw, 64px);
 }
 h3 {
   font-weight: bold;
-  font-size: 36px;
+  font-size: min(3vw, 36px);
   margin-bottom: 33px;
 }
 form{
@@ -25,6 +25,7 @@ form{
 /*--- NAVBAR ---*/
 .navbar-nav {
   flex-direction: row;
+  height: 2vh;
 }
 .nav-link {
   padding-right: .5rem !important;
@@ -32,6 +33,11 @@ form{
 }
 .mint-btn{
   background-color: #61C9A8;
+  display: inline-block;
+  width: fit-content;
+  padding: 6px 12px;
+  border: none;
+  border-radius: .25rem;
 }
 /* Fixes dropdown menus placed on the right side */
 .ml-auto .dropdown-menu {
@@ -47,20 +53,14 @@ form{
 
 /* LANDING CARD*/
 #landing {
-  font-size: 24px;
+  font-size: min(2vw, 24px);
 }
-#landing-card-1 {
-    width: 60%;
-}
-#landing-card-2{
-    width: 50%;
-    float: right;
-}
+
 .br-18 {
     border-radius: 18px;
 }
 .hero-text {
-  font-size: 96px;
+  font-size: min(8vw, 96px);
 }
 .card{
   background-color: #fff;
@@ -79,7 +79,7 @@ form{
   transform: translateY(-30px);
 }
 #transform {
-  margin-left: 616px;
+  margin-left: 50vw;
 }
 #card-stack {
   margin-top: 156px;
@@ -96,23 +96,23 @@ form{
   margin-right: -100%;
   position: relative;
   z-index: 1;
-  width: 60%;
+  width: 60vw;
 }
 #landing-card-top > p,h2 {
   max-width: 75%;
 }
 #landing-card-bottom {
   margin-top: 15%;
-  width: 50%;
+  width: 50vw;
   z-index: 1;
   float: right;
 }
 #footnote {
-  font-size: 18px;
-  margin-top: 45%;
+  font-size: (1.75vw, 18px);
+  margin-top: clamp(450px, 50vw, 85vh);
   margin-right: -100%;
   margin-left: 17%;
-  width: 35%;
+  width: 35vw;
   z-index: 1;
   float: left;
 }
