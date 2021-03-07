@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const ejs = require("ejs");
 
 const app = express();
 
@@ -26,14 +27,17 @@ app.get("/login", function(req,res){
 /* MENTOR ROUTE */
 app.get("/mentor", function(req,res){
     res.send("This will be the mentor profile page");
-});
+}); 
 
 /* MENTEE ROUTE */
 app.get("/member", function(req,res){
-    res.send("This will be the mentee profile page");
-});
+    res.render("mentor");
+});  
 
 /* CONNECTION/MATCH ROUTE */
+app.get("/connection", function(req,res){
+    res.render("mentee");
+});
 
 app.listen(8000,function(){
     console.log("Server started on Port 8000");
