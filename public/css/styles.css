@@ -1,3 +1,8 @@
+footer{
+  background-color: #9FA8DA;
+  color: #fff;
+}
+ 
  /* Stackoverflow preview fix, please ignore */
   .navbar-nav {
     flex-direction: row;

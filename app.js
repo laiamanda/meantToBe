@@ -24,17 +24,20 @@ app.get("/login", function(req,res){
     res.render("login");
 });
 
-/* MENTOR ROUTE 
+/* MENTOR ROUTE */
 app.get("/mentor", function(req,res){
     res.send("This will be the mentor profile page");
-}); */
+}); 
 
-/* MENTEE ROUTE
+/* MENTEE ROUTE */
 app.get("/member", function(req,res){
-    res.send("This will be the mentee profile page");
-});  */
+    res.render("mentor");
+});  
 
 /* CONNECTION/MATCH ROUTE */
+app.get("/connection", function(req,res){
+    res.render("mentee");
+});
 
 app.listen(8000,function(){
     console.log("Server started on Port 8000");
